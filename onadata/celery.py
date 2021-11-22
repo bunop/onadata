@@ -13,7 +13,7 @@ import raven
 from raven.contrib.celery import register_logger_signal, register_signal
 
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'onadata.settings.common')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'onadata.settings.local_settings')
 
 
 class Celery(celery.Celery):
