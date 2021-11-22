@@ -31,4 +31,4 @@ CELERYD_GROUP="www-data"
 CELERY_CREATE_DIRS=1
 C_FORCE_ROOT=1
 CELERYD_LOG_LEVEL="INFO"
-DJANGO_SETTINGS_MODULE="onadata.settings.common"
+DJANGO_SETTINGS_MODULE="onadata.settings.local_config"

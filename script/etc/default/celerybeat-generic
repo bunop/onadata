@@ -25,4 +25,4 @@ CELERYBEAT_PID_FILE="/var/run/celery-onadata/beat.pid"
 # Name of the projects settings module.
 # in this case is just settings and not the full path because it will change the dir to
 # the project folder first.
-DJANGO_SETTINGS_MODULE="onadata.settings.common"
+DJANGO_SETTINGS_MODULE="onadata.settings.local_config"
